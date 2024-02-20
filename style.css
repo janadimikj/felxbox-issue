@@ -1,0 +1,89 @@
+body {
+	background-image: url("gowns.jpg");
+	background-color: black;
+	background-repeat: no-repeat;
+	background-size: 120%;
+	background-position: center;
+}
+
+h1 {
+	display: flex;
+	justify-content: flex-start;
+	font-family: 'Sixtyfour', sans-serif;
+	color: white;
+	font-size: 70px;
+	line-height: 1.2;
+	margin-top: 150px;
+}
+
+.links {
+	display: flex;
+	flex-direction: column;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 100%;
+	flex: 1;
+}
+
+.c1 {
+	background-color: black;
+	height: 100%;
+	opacity: 50%;
+}
+
+.c2 {
+	background-color: black;
+	height: 100%;
+	opacity: 50%;
+}
+
+p {
+	color: white;
+	font-family: 'Dosis', sans-serif;
+	font-size: 25px;
+}
+
+ul {
+	list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  display: inline;
+  float: left;
+}
+
+li a {
+	color: white;
+	font-family: 'Dosis', sans-serif;
+	font-size: 25px;
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+}
+
+
+a:hover {
+	color: royalblue;
+}
+
+img {
+	width: 50px;
+}
